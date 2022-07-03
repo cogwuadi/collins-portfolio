@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    /* font-family: 'josefin Sans'; */
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
@@ -29,7 +28,6 @@ body{
 }
 
 .nav-bar{
-    position: relative;
     height: 100%;
     max-width: 800px;
     background-color: var(--nav-color);
@@ -75,26 +73,20 @@ body{
 }
 
 .hero-2{
-position: absolute;
-width: 565px;
-height: 102px;
-left: 210px;
-top: 195px;
+padding-top: 23%;
+padding-left: 30%;
+width: 799px;
 font-family: 'Kdam Thmor';
-font-style: normal;
 font-weight: 400;
 font-size: 45.23px;
-line-height: 123.5%;
 text-align: center;
 color: #000000;
 }
 
 .hero-3{
-position: absolute;
-width: 653px;
-height: 112px;
-left: 205px;
-top: 425px;
+width: 793px;
+padding-top: 10%;
+padding-left: 30%;
 font-family: 'Kdam Thmor';
 font-style: normal;
 font-weight: 400;
@@ -108,79 +100,56 @@ color: #000000;
     position: absolute;
     width: 279.28px;
     height: 510px;
-    left: 917.72px;
+    left: 890px;
     top: 125px;
 }
 
 #about{
-padding-top: 50px;
-position: absolute;
+padding-top: 170px;
 width: 108px;
-height: 40px;
-left: 647px;
-top: 665px;
+padding-left: 47%;
 font-family: 'Kdam Thmor';
-font-style: normal;
-font-weight: 600;
+font-weight: 500;
 font-size: 31.99px;
-line-height: 123.5%;
-text-align: center;
 color: var(--nav-color);
 }
 
 .about-1{
-    padding-top: 50px;  
-position: absolute;
-width: 977px;
-height: 182px;
-left: 201px;
-top: 710px;
+padding-top: 10px;  
+width: 1170px;
+padding-left: 15%;
 font-family: 'Kdam Thmor';
-font-style: normal;
 font-weight: 400;
 font-size: 22.62px;
-line-height: 123.5%;
 text-align: center;
 color: #000000;
 }
 
 #work{
-position: absolute;
-width: 545px;
-height: 10px;
-left: 448px;
-top: 969px;
+width: 1345px;
+padding-top: 60px;
+padding-left: 37%;
 font-family: 'Kdam Thmor';
-font-style: normal;
-font-weight: 600;
+font-weight: 500;
 font-size: 31.99px;
-line-height: 123.5%;
-text-align: center;
 color: var(--nav-color);
 }
 
 .work-1{
-position: absolute;
-width: 393px;
-height: 28px;
-left: 211px;
-top: 1039px;
+width: 1343px;
+padding-top: 20px;
+padding-left: 16%;
 font-family: 'Kdam Thmor';
-font-style: normal;
 font-weight: 400;
 font-size: 22.62px;
-line-height: 123.5%;
 color: #000000;
 }
 
 .work-2{
-position: absolute;
-width: 980px;
-height: 224px;
-left: 210px;
-top: 1089px;
+width: 1170px;
+padding-top: 20px;
+padding-left: 15%;
 font-family: 'Kdam Thmor';
-font-style: normal;
 font-weight: 400;
 font-size: 22.62px;
 line-height: 123.5%;
@@ -188,43 +157,31 @@ color: #000000;
 }
 
 #pro{
-position: absolute;
 width: 185px;
-height: 40px;
-left: 618px;
-top: 1327px;
+padding-top: 60px;
+padding-left: 44%;
 font-family: 'Kdam Thmor';
-font-style: normal;
-font-weight: 400;
+font-weight: 500;
 font-size: 31.99px;
-line-height: 123.5%;
-text-align: center;
 color: var(--nav-color);
 }
 
 .project{
-position: absolute;
-width: 300px;
-height: 40px;
-left: 155px;
-top: 1387px;
+width: 1347px;
+padding-top: 20px;
+padding-left: 16%;
 font-family: 'Kdam Thmor';
 font-style: normal;
 font-weight: 400;
 font-size: 25px;
-line-height: 123.5%;
-text-align: center;
 color: #000000;
 }
 
 .project-1{
-position: absolute;
-width: 730px;
-height: 80px;
-left: 210px;
-top: 1435px;
+width: 1170px;
+padding-top: 20px;
+padding-left: 15%;
 font-family: 'Kdam Thmor';
-font-style: normal;
 font-weight: 400;
 font-size: 22.62px;
 line-height: 123.5%;
@@ -232,112 +189,82 @@ color: #000000;
 }
 
 .project-2{
-position: absolute;
-width: 919px;
+width: 1159px;
+padding-top: 20px;
+padding-left: 20%;
 height: 358px;
-left: 271px;
-top: 1523px;
 }
 
 .travel{
-    padding-left: 38px;
-    position: absolute;
-    width: 300px;
-    height: 40px;
-    left: 165px;
-    top: 1952px;
+    width: 1347px;
+    padding-top: 80px;
+    padding-left: 16%;
     font-family: 'Kdam Thmor';
-    font-style: normal;
     font-weight: 400;
     font-size: 25px;
-    line-height: 123.5%;
-    text-align: center;
     color: #000000;    
 }
 
 .travel-1{
-    padding-left: 20px;
-position: absolute;
-width: 730px;
-height: 75px;
-left: 220px;
-top: 1997px;
+width: 1170px;
+padding-top: 20px;
+padding-left: 15%;
 font-family: 'Kdam Thmor';
-font-style: normal;
 font-weight: 400;
 font-size: 22.62px;
-line-height: 123.5%;
 color: #000000;
 }
 
 .travel-2{
-position: absolute;
-width: 919px;
+width: 1159px;
+padding-top: 20px;
+padding-left: 20%;
 height: 356px;
-left: 271px;
-top: 2089px;
 }
 
 .personal{
-position: absolute;
-width: 350px;
-height: 40px;
-left: 195px;
-top: 2500px;
+width: 1347px;
+padding-top: 80px;
+padding-left: 16%;
 font-family: 'Kdam Thmor';
-font-style: normal;
 font-weight: 400;
 font-size: 25px;
-line-height: 123.5%;
-text-align: center;
 color: #000000;
 }
 
 .personal-1{
-position: absolute;
-width: 730px;
-height: 80px;
-left: 247px;
-top: 2550px;
+width: 1170px;
+padding-top: 20px;
+padding-left: 15%;
 font-family: 'Kdam Thmor';
-font-style: normal;
 font-weight: 400;
 font-size: 22.62px;
-line-height: 123.5%;
 color: #000000;
 }
 
 .personal-2{
-position: absolute;
-width: 919px;
-height: 355px;
-left: 271px;
-top: 2649px;
+width: 1159px;
+padding-top: 20px;
+padding-left: 20%;
+height: 358px;
 }
 
 #service{
-position: absolute;
 width: 141px;
-height: 40px;
-left: 657px;
-top: 3089px;
+padding-top: 80px;
+padding-left: 44%;
 font-family: 'Kdam Thmor';
-font-style: normal;
-font-weight: 400;
+font-weight: 500;
 font-size: 31.99px;
 line-height: 123.5%;
-text-align: center;
 color: var(--nav-color);
 }
 
 .service-1{
-position: absolute;
-width: 534px;
-height: 84px;
-left: 210px;
-top: 3152px;
+width: 1170px;
+padding-top: 20px;
+padding-left: 15%;
 font-family: 'Kdam Thmor';
-font-style: normal;
 font-weight: 400;
 font-size: 22.62px;
 line-height: 123.5%;
@@ -345,28 +272,23 @@ color: #000000;
 }
 
 #skill{
-position: absolute;
-width: 100px;
-height: 40px;
-left: 649px;
-top: 3294px;
+width: 185px;
+padding-top: 60px;
+padding-left: 44%;
 font-family: 'Kdam Thmor';
-font-style: normal;
 font-weight: 400;
 font-size: 31.99px;
-line-height: 123.5%;
-text-align: center;
 color: var(--nav-color);
 }
 
 .skills{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    padding-top: 3300px;
+    font-weight: 400;
+    padding-top: 40px;
     padding-left: 320px;
     padding-right: 180px;
     padding-bottom: 40px;
-    /* justify-content: space-between; */
 }
 .icon{
     font-size: 60px;
@@ -382,18 +304,17 @@ color: var(--nav-color);
 }
 .letter33{
     font-size: 20px;
-    /* padding-left: 10px; */
 }
 
 .foot{
     background-color: #000000;
+    width: auto;
     height: 280px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .footer{
-    /* background-color: black; */
     margin-top: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -428,14 +349,8 @@ color: var(--nav-color);
 .footer-6{
    margin-left: -180px; 
    padding-bottom: 20px;
-   margin-top: -20px;
-    
+   margin-top: -20px;    
 }
-
-/* .foot-1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-} */
 
 .navigation{
     font-family: var(--font-family);
@@ -454,7 +369,6 @@ color: var(--nav-color);
     color: #FAF9F9;
     padding-top: 35px;
     padding-left: 90px;
-
 }
 
 .icon-1{
