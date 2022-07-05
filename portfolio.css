@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+:root{
+    --nav-color : #104FF2;
+    --nav-text-color :#FAF9F9;
+    --body-color : #212121;
+    --text-color : #fff;
+    --paragraph-text-color : #000000;
+}
+
+.color{
+    color: var(--nav-color);
+}
+
+body, html{
+    background-color: var(--body-color);
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+    color: var(--text-color);
+}
+
+.container{
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 0.1rem;
+}
+
+header{
+    position: fixed;
+    background-color: black;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+.hero-1{
+    margin-top: 5rem;
+}
+
+main{
+    margin-top: 4rem;
+    line-height: 30px;
+}
+
+.media{
+    line-height: 30px;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    margin: 1rem 0px;
+}
+.img-1{
+    margin: 0rem 17rem;
+}
+
+section{
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 1rem;
+}
+
+.nav-links{
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+
+.row{
+    display: flex;
+}
+
+.card{
+    box-shadow: 2px 2px 4px #333;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+
+.card-1{
+    font-size: 30px;
+   margin: 0rem 1rem;
+}
+
+/* .col-md-6{
+    display: flex;
+} */
+
+/* .col-md-4{
+    display: flex;
+} */
+
+.copy{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+@media all and (min-width: 768px) {
+    .col-md-4{
+        width: 33.3%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    header.div.nav-links.li {
+      display: block;
+    }
+}
+
+@media all,(min-width: 650px) {
+    div.img-1{
+        margin: 0rem 5rem;
+        /* height: auto; */
+        max-width: 100%;
+    }
+}
+
+@media all,(min-width: 650px) {
+    div.hero-1, .media{
+        margin: 4rem 1.5rem;
+    }
+}
+
+@media all, (min-width: 480x) {
+    .about{
+        margin: 0rem 3rem;
+    }
+}
+
+@media all, (min-width: 768px){
+    .nav-links{
+        display: flex;
+        font-size: 10px;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+/* @media all, ( min-width: 650px) {
+    div.row{
+        display: block;
+    }
+} */
