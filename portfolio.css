@@ -35,7 +35,8 @@ body, html{
 
 header{
     position: fixed;
-    background-color: black;
+    background-color: white;
+   
     padding: 1rem;
     margin-bottom: 0.5rem;
     width: 100vw;
@@ -45,6 +46,10 @@ header{
 
 .hero-1{
     margin-top: 5rem;
+}
+
+.hero-2{
+    text-align: center;
 }
 
 main{
@@ -60,9 +65,9 @@ img{
     height: auto;
     max-width: 100%;
     margin: 1rem 0px;
-}
-.img-1{
-    margin: 0rem 17rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 section{
@@ -76,7 +81,15 @@ h1, h2, h3, h4, h5, h6{
 .nav-links{
     display: flex;
     width: 100%;
-    justify-content: space-between
+    justify-content: space-between;
+}
+
+.nav-links li a{
+    font-size: 17px;
+    margin: 0px 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
 }
 
 .row{
@@ -93,14 +106,6 @@ h1, h2, h3, h4, h5, h6{
     font-size: 30px;
    margin: 0rem 1rem;
 }
-
-/* .col-md-6{
-    display: flex;
-} */
-
-/* .col-md-4{
-    display: flex;
-} */
 
 .copy{
     display: flex;
@@ -120,11 +125,11 @@ h1, h2, h3, h4, h5, h6{
     }
 }
 
-@media all,(min-width: 650px) {
+@media all,(max-width: 650px) {
     div.img-1{
         margin: 0rem 5rem;
-        /* height: auto; */
         max-width: 100%;
+        justify-content: center;
     }
 }
 
@@ -140,17 +145,39 @@ h1, h2, h3, h4, h5, h6{
     }
 }
 
-@media all, (min-width: 768px){
+@media (max-width: 768px){
     .nav-links{
         display: flex;
-        font-size: 10px;
-        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
         width: 100%;
+    }
+
+    header{
+        background-color: #212121;
+    }
+
+    .nav-links li a{
+        padding-bottom: 10px;
+        color: white;
+    }
+
+    .container{
+        margin-top: 180px;
     }
 }
 
-/* @media all, ( min-width: 650px) {
+@media ( max-width: 630px) {
     div.row{
         display: block;
+        text-align: center;
     }
-} */
+
+    .col-md-4{
+        margin-bottom: 30px;
+    }
+
+    .copy{
+        margin-left: 70px;
+    }
+}
